@@ -23,3 +23,11 @@
     display:flex;
     min-width: 100px;
 }
+
+button{
+    width:60px;
+    height: 25px;
+    margin : 5px 20px;
+    background-color: aquamarine;
+    border-radius: 8px;
+}
