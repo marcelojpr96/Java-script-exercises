@@ -11,4 +11,7 @@ math=5;
 console.log(thiswontchange*math);
 math ="something else";
 console.log(`can i typechange a variable? ${math}`)
-//thiswontchange=5; //this will error out the code
+alert("hi");
+
+
+//thiswontchange=5; //this will error out the codego
