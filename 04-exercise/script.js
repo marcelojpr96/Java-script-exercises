@@ -51,3 +51,27 @@ function my_function_test(){
 }
 button.addEventListener("click",my_function);
 log_button.addEventListener("click",my_function_test);
+
+
+
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+let floating = 4.15;
+let strings = "42px 234 sdkmsdfn 4";
+let str_split = strings.split(" ");
+console.log(strings.split(" "));
+
+for(const a of str_split){
+    console.log(a)
+    if(!isNaN(parseInt(a))){
+        console.log(parseInt(a))
+    }
+    else{
+        console.log("There should be a nan", parseInt(a , 10))
+    }
+    
+}
+console.log("------------")
+for(let a = 0; a < str_split.length ;a++){
+    console.log(str_split[a] , "    ", parseInt(str_split[a]))
+}
