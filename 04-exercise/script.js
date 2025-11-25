@@ -10,6 +10,7 @@ function my_function(){
     const testing = document.getElementById("testing")
     if(Number(number)> Number(testing.textContent)){
         console.log("your number is higher");
+        
     }
     else if(Number(number) == Number(testing.textContent)){
         testing.textContent = "its the same";
