@@ -1,0 +1,90 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    gap:40px;
+}
+/*header and footer*/
+.header{
+    display:flex;
+    align-content: center;
+    justify-content:center;
+    color: blue;
+    margin-bottom: auto;
+    padding: 20px;
+    overflow:hidden;
+}
+.header h1 {
+    margin: 0;
+}
+.footer{
+    padding : 10px;
+    text-align:center;
+    margin-top: auto;
+}
+
+/*taking care of the main body*/
+.container{
+    flex:1 0 auto;
+    gap:40px;
+    width: auto;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    min-height: 0;
+    
+}
+.row-one,.row-two,.row-three{
+    min-height: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
+
+
+.box{
+    flex:1 0 auto;
+    border:1px solid black;
+    max-height: 300px;
+    max-width: 500px;
+    min-height: 200px;
+    min-width: 200px;
+    align-content: center;
+    justify-content: center;
+    overflow:hidden;
+    display:flex;
+}
+
+.two img,.seven img, .eigth img, .nine img, .four img, .six img{
+    max-width: 80%;
+    max-height:80%;
+    object-fit: contain;
+    display:block;
+}
+.box.two:hover,.box.seven:hover,.box.eigth:hover,.box.nine:hover{
+    transform:scale(1.2);
+}
+.eigth{
+    /*visibility of the 8*/
+    visibility: visible;
+}
+
+
+
+
+
+
+/*player stats*/
+.one,.three,.five{
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-size:24px;
+    font-weight:bold;
+}
+.five{
+    font-size:48px;
+}
