@@ -2,8 +2,8 @@ const playerOneScore = document.querySelector(".player-one-score");
 const playerTwoScore = document.querySelector(".player-two-score");
 const playerOneChoiceImg = document.querySelector(".player-one-choice");
 const playerTwoChoiceImg = document.querySelector(".player-two-choice");
+const round_number = document.querySelector(".round_number")
 //clicable items:
-
 const gun_item = document.querySelector(".box.eigth img");
 const paper_item = document.querySelector(".box.two img");
 const rock_item = document.querySelector(".box.seven img");
@@ -56,5 +56,5 @@ gun_item.addEventListener("click",()=>{
 
 
 
-
+console.log(round_number.textContent)
 console.log(playerOneScore.textContent);
