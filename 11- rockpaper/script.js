@@ -12,11 +12,16 @@ const item_location_dictionary ={
     gun:"./imgs/item_gun.png",
 }
 const gun_item = document.querySelector(".box.eigth");
-/*
+const paper_item = document.querySelector(".box.two");
+const rock_item = document.querySelector(".box.seven");
+const scissor_item = document.querySelector(".box.nine");
 gun_item.style.visibility = "hidden";
-*/
+
+
 gun_item.addEventListener("click",()=>{
     playerOneChoiceImg.style.visibility = "visible";
     playerOneChoiceImg.src=item_location_dictionary.gun;
+    let randomNumber = Math.floor(Math.random()*3)
+    console.log(randomNumber)
 });
 console.log(playerOneScore.textContent);
