@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     min-height:100vh;
     gap:40px;
+    background: linear-gradient(white, yellow, white); 
 }
 /*header and footer*/
 .header{
